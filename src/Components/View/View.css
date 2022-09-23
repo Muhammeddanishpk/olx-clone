@@ -1,0 +1,85 @@
+.viewParentDiv {
+  padding-top: 4em;
+  display: flex;
+  background: #371B58;
+}
+.viewParentDiv .imageShowDiv {
+  padding: 16px;
+  width: 70vw;
+}
+.viewParentDiv .imageShowDiv img {
+  border: 5px solid rgb(255, 255, 255) ;
+  border-radius: 5px;
+  object-fit: contain ;
+  height: 85vh;
+}
+
+.viewParentDiv .rightSection {
+  padding: 16px;
+  margin-top: 3em;
+  width: 30vw;
+}
+
+.viewParentDiv .rightSection .productDetails :first-child {
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: rgba(173, 255, 0, 0.97);
+  font-size: 34px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.viewParentDiv .rightSection .productDetails {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 6px;
+  background: #28043680;
+  color: #ffff;
+  font-family: initial;
+  font-weight: 500;
+  border-radius: 10px;
+  margin-bottom: 2em;
+  width: 100%;
+
+}
+.productDetails .titls{
+  /* font-weight: 600; */
+  color: #ffff;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.productDetails .t{
+  font-size: 12px;
+}
+.viewParentDiv .rightSection .contactDetails {
+  border: 2px solid rgb(255, 255, 255);
+  padding: 6px;
+  background: #28043680;
+  border-radius: 10px;
+}
+
+.viewParentDiv .rightSection .contactDetails :first-child {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: rgb(61, 61, 61);
+  font-weight: 600;
+  padding: 0;
+}
+ .userProfile{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.viewParentDiv .name{
+  text-transform: capitalize;
+  font-weight: 800;
+  margin-left: 40px;
+  margin-top: -25px;
+  color: rgb(208, 212, 202)
+}
+.contactDetails span{
+  color: rgb(139, 139, 139);
+  font-weight: 900;
+}
+.phone{
+  color: #fff!important;
+}

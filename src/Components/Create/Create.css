@@ -1,0 +1,96 @@
+.centerDiv {
+    width: max-content;
+    padding: 40px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 6px;
+    z-index: 99;
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.212);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+  }
+  .input {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+    width: 192px;
+height: 38px;
+    outline: none;
+    border: none;
+background: #4C3575;
+border-radius: 10px;
+color: #fff;
+border: 0.1px solid rgb(219, 208, 217);
+
+  }
+  
+  .uploadBtn {
+    width: 100%;
+    height: 45px;
+    /* border-color: transparent; */
+    color: whitesmoke;
+    font-weight: 900;
+    /* width: 210px;
+height: 56px; */
+border: none;
+border: 0.5px solid rgb(0, 0, 0);
+background: #2E0249;
+border-radius: 8px;
+margin-top: 10px;
+cursor: pointer;
+  }
+  .uploadBtn:hover {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+  }
+  .centerDiv img{
+    object-fit: cover;
+  }
+  .centerDiv label{
+    color: #fff;
+    font-weight: 500
+  }
+
+  /*custom inpu file*/
+.imageUp {
+  color: transparent;
+
+}
+.imageUp::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.imageUp::before {
+	content: "▲ Upload File";
+    color: #fff;
+    display: inline-block;
+    background: #A91079;
+    padding: 10px 22px;
+  
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 5px;
+    outline: none;
+
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+.imageUp:focus {
+	outline: none !important;
+
+}
+.imageUp:active::before {
+	    transform: scale(.9) translate(0px, 2px);
+	   box-shadow:  inset 4px 4px 5px 0px rgba(0, 0, 0, 0.20);
+	   
+}
