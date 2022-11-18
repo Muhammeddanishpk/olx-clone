@@ -1,6 +1,6 @@
 import React,{useEffect,useState,useContext} from 'react';
 import { postContaxt } from '../../store/postContaxt';
-import Header from '../Header/Header'
+import Header from '../Header/Header';
 import { collection, query, where,getDocs } from "firebase/firestore";
 import './View.css';
 import { FirebaseContaxt } from '../../store/firebaseContaxt';
@@ -23,6 +23,9 @@ function View() {
   },[])
   
   return (
+    <>
+    <Header
+    top={{'margin-top':'0px'}} /> 
     <div className="viewParentDiv">
       <div className="imageShowDiv">
         <img
@@ -44,6 +47,7 @@ function View() {
         </div>}
       </div>
     </div>
+    </>
 
   );
 }

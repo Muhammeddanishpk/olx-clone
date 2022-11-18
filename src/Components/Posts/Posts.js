@@ -41,6 +41,7 @@ const  searchHandler = (searchTerm) =>{
   return (
     <>
   <Header
+    top={{'margin-top':'-82px'}}
     tern={searchTerm}
     searchKey={searchHandler}
     product={searchTerm.length < 1 ?  products : result}

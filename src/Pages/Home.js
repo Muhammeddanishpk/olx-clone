@@ -9,8 +9,6 @@ import Posts from '../Components/Posts/Posts';
 function Home(props) {
   return (
     <div className="homeParentDiv">
-      <Header />
-      <Banner />
     <Posts />
     <Sell/>
     </div>

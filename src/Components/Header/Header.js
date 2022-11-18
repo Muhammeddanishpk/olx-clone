@@ -32,7 +32,7 @@ function Header(props) {
     props.searchKey(inputEl.current.value)   
   };
   return (
-    <div className="headerParentDiv">
+    <div className="headerParentDiv" style={props.top}>
       <div className="headerChildDiv">
         <div className="brandName">
           <img src="../../../Images/logo.png" />
